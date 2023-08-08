@@ -12,3 +12,8 @@ Step 2 — Sentiment Analysis with TextBlob
 - Skimming the reviews, I see that most are negative and with a rating of 1/10. As our goal is to find positive aspects of this series, we need to filter only the positive reviews. For this purpose, we can rely on user ratings or perform sentiment analysis. The second option is used in this post. Why? Sentiment analysis algorithms analyze the text to assess whether it conveys a positive, negative, or neutral sentiment. This approach allows for a more nuanced understanding of the sentiment expressed in a review. Sentiment analysis can capture subtle aspects of the text and provide insights beyond just an overall rating. It can help identify positive reviews that might have lower ratings due to specific reasons or negative reviews that mention positive aspects.
 - TextBlob is a great Python library that we can use for this sentiment analysis. TextBlob uses a machine learning algorithm to classify text into positive and negative sentiments.
 - Prompt: imdb_reviews.csv stores all movie reviews in the column Review. Use TextBlob to perform sentiment analysis for these reviews and give me the top 10% of positive reviews.
+
+Step 3 — Summarize Positive Reviews with OpenAI
+- In this final step, we need to capture key information and important details in these reviews. OpenAI is capable of doing this task.
+- To keep it easy to follow, the code of Step 2 is included as well.
+- Note: increase the max_token if you want to have a longer summary.
