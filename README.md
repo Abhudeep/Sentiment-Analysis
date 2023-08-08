@@ -1,5 +1,4 @@
-# Sentiment-Analysis
-
+# Web Scraping and Sentiment Analysis With Python, Selenium, TextBlob and OpenAI
 Web Scraping and Sentiment Analysis With Python, Selenium, TextBlob and OpenAI
 
 Step 1 — Web Scrape to Get Reviews
